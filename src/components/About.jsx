@@ -10,7 +10,7 @@ const About = () => {
                     <div className="w-full lg:w-1/2">
                         <div className="relative rounded-2xl overflow-hidden border-2 border-brand-blue/30 shadow-[0_0_40px_rgba(30,56,241,0.15)] flex justify-center bg-brand-dark">
                             <img
-                                src="/elementos-visuais/FOTO-MARINHO-PNG.png"
+                                src="/elementos-visuais/marinho-bio.png"
                                 alt="Marinho Neto"
                                 className="w-full max-w-md h-auto object-contain z-10 relative pt-8"
                                 onError={(e) => { e.target.onerror = null; e.target.src = "https://via.placeholder.com/800x1000/0a0a0a/1e38f1?text=FOTO+MARINHO+NETO" }}
