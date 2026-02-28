@@ -7,22 +7,13 @@ const About = () => {
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col lg:flex-row items-center gap-16">
 
-                    <div className="w-full lg:w-1/2">
-                        <div className="relative rounded-2xl overflow-hidden border-2 border-brand-blue/30 shadow-[0_0_40px_rgba(30,56,241,0.15)] flex justify-center bg-brand-dark">
-                            <img
-                                src="/elementos-visuais/marinho-bio.png"
-                                alt="Marinho Neto"
-                                className="w-full max-w-md h-auto object-contain z-10 relative pt-8"
-                                onError={(e) => { e.target.onerror = null; e.target.src = "https://via.placeholder.com/800x1000/0a0a0a/1e38f1?text=FOTO+MARINHO+NETO" }}
-                            />
-                            <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(30,56,241,0.2),transparent_70%)] rounded-2xl"></div>
-                            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-brand-dark via-brand-dark/80 to-transparent p-6 pt-24 text-center z-20">
-                                <h3 className="text-2xl font-bold text-white shadow-black drop-shadow-md">Marinho Neto</h3>
-                                <p className="text-brand-muted font-medium text-lg drop-shadow-md">Estrategista e Diretor Comercial</p>
-                            </div>
-                        </div>
-
-
+                    <div className="w-full lg:w-1/2 flex justify-center">
+                        <img
+                            src="/elementos-visuais/marinho-bio.png"
+                            alt="Marinho Neto"
+                            className="w-full max-w-lg lg:max-w-xl h-auto object-contain z-10 relative drop-shadow-2xl"
+                            onError={(e) => { e.target.onerror = null; e.target.src = "https://via.placeholder.com/800x1000/0a0a0a/1e38f1?text=FOTO+MARINHO+NETO" }}
+                        />
                     </div>
 
                     <div className="w-full lg:w-1/2">
