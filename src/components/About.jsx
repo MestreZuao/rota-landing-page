@@ -22,16 +22,7 @@ const About = () => {
                             </div>
                         </div>
 
-                        <div className="grid grid-cols-2 gap-4 mt-6 z-20 relative">
-                            <div className="bg-brand-dark p-4 rounded-lg border border-gray-800 text-center">
-                                <p className="text-3xl font-extrabold text-brand-blue mb-1">+23</p>
-                                <p className="text-sm text-gray-400 font-medium tracking-wide text-balance">ANOS DE TRADIÇÃO DA CONSTRUTORA</p>
-                            </div>
-                            <div className="bg-brand-dark p-4 rounded-lg border border-gray-800 text-center">
-                                <p className="text-3xl font-extrabold text-brand-blue mb-1">Mercado</p>
-                                <p className="text-sm text-gray-400 font-medium tracking-wide text-balance">ALTO PADRÃO IMOBILIÁRIO</p>
-                            </div>
-                        </div>
+
                     </div>
 
                     <div className="w-full lg:w-1/2">
