@@ -1,1 +1,1 @@
-export const KIWIFY_CHECKOUT_URL = "https://kiwify.app/Tl1tzVy";
+export const KIWIFY_CHECKOUT_URL = "https://pay.kiwify.com.br/8Gx4SdM";
