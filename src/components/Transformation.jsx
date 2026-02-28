@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, CheckCircle2, XCircle } from 'lucide-react';
+import { ArrowRight, CheckCircle as CheckCircle2, CircleX as XCircle } from 'lucide-react';
 
 const Transformation = () => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Target, TrendingDown, Users, XOctagon, BrainCircuit, SearchX } from 'lucide-react';
+import { Target, TrendingDown, Users, OctagonX as XOctagon, BrainCircuit, SearchX } from 'lucide-react';
 import { KIWIFY_CHECKOUT_URL } from '../constants';
 
 const forWhoPoints = [
