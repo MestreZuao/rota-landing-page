@@ -1,5 +1,5 @@
 import React from 'react';
-import { Instagram, Youtube, Linkedin } from 'lucide-react';
+import { Instagram } from 'lucide-react';
 import { KIWIFY_CHECKOUT_URL } from '../constants';
 
 const Footer = () => {
@@ -24,18 +24,9 @@ const Footer = () => {
                     </div>
 
                     <div className="flex gap-6">
-                        {/* Social Links Placeholders */}
-                        <a href="#" className="w-10 h-10 rounded-full bg-brand-gray flex items-center justify-center text-gray-400 hover:text-brand-light hover:bg-gray-800 transition-all">
+                        <a href="https://www.instagram.com/omarinhonetto/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-brand-gray flex items-center justify-center text-gray-400 hover:text-brand-light hover:bg-gray-800 transition-all">
                             <span className="sr-only">Instagram</span>
                             <Instagram className="w-5 h-5" />
-                        </a>
-                        <a href="#" className="w-10 h-10 rounded-full bg-brand-gray flex items-center justify-center text-gray-400 hover:text-brand-light hover:bg-gray-800 transition-all">
-                            <span className="sr-only">Youtube</span>
-                            <Youtube className="w-5 h-5" />
-                        </a>
-                        <a href="#" className="w-10 h-10 rounded-full bg-brand-gray flex items-center justify-center text-gray-400 hover:text-brand-light hover:bg-gray-800 transition-all">
-                            <span className="sr-only">LinkedIn</span>
-                            <Linkedin className="w-5 h-5" />
                         </a>
                     </div>
                 </div>
