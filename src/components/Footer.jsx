@@ -1,4 +1,5 @@
 import React from 'react';
+import { Instagram, Youtube, Linkedin } from 'lucide-react';
 import { KIWIFY_CHECKOUT_URL } from '../constants';
 
 const Footer = () => {
