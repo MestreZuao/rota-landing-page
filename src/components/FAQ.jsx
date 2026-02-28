@@ -77,7 +77,6 @@ const FAQ = () => {
                 </div>
 
                 <div className="mt-16 text-center bg-brand-dark p-8 rounded-xl border border-gray-800 flex flex-col items-center">
-                    <p className="text-white text-xl font-medium mb-6">Sua dúvida não foi respondida?</p>
                     <a
                         href={KIWIFY_CHECKOUT_URL}
                         target="_blank"
